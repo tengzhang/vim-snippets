@@ -1,0 +1,7 @@
+snippet yiitry
+	try {
+		${0}
+	} catch (Exception $e) {
+		$this->logger->info($e->getMessage());
+		$this->logger->info($e->getTreace());
+	}
